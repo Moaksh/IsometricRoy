@@ -993,13 +993,296 @@ footer button{
 /*--------------------Media Queries--------------*/
 
 
+
+/* ----------- iPhone 5 ----------- */
+
+/* Only Portrait and No Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+.kabir {
+  height: 250px;
+  background: url(../img/arjunp5.jpg) top center fixed;
+}
+
+
+
+.quote-kabir {
+    width: 100%; 
+    height: 18%;
+    left: 216%;
+    margin-left: -700px;
+    top: 2%;
+    background: url(../img/kquote2.png) top left no-repeat;
+  
+}
+
+.logo-kabir {
+
+    height: 15%;
+    width: 100%;
+    background: url(../img/logop6p.png) center no-repeat;
+    top: 41%;
+    margin-top: -20px;
+    margin-left: -15px;
+   }
+
+.fore-kabir {
+    width: 100%;
+    height: 61%;
+    background: url(../img/kabirtransp61.png) right bottom no-repeat;
+    left: 40%;
+    margin-left: -151px;
+    top: 45%;
+   }
+
+
+.roy{
+  
+  background: url(../img/roypp6.png) ghostwhite top center no-repeat fixed;
+  
+height: 250px;
+margin: 60px 0;
+
+border-radius: 20%;
+width: 100%;
+
+
+}
+
+.dia{
+  
+  height: 250px;
+  position: relative;
+  background: url(../img/diap5.png) top center no-repeat fixed;
+  overflow: hidden;
+  width: 100%;
+}
+
+.fore-dia{
+  width: 100%;
+  height: 100%;
+  background: url(../img/diaforep5.png) top right no-repeat;
+  position: absolute;
+  
+  
+}
+
+.quote-dia{
+  width: 100%;
+  height: 100px;
+  background: url(../img/newdiaquotep5.png) top right no-repeat;
+  position: absolute;
+  top: 20%;
+  left: -80px;
+}
+
+
+.logo-dia{
+  
+  width: 100%;
+  height: 100px;
+  background: url(../img/ayesha121.png) center no-repeat;
+  position: absolute;
+  right: -40px;
+  top: 90px;
+}
+
+.summary{
+  padding: 22px;
+}
+
+.summary h2{
+  font-size: 35px;
+}
+
+.summary p{
+  font-size: 15px;
+  line-height: 1.2;
+  padding: 6% 0;
+}
+
+.section--featured{
+
+  height: 700px;
+ }
+
+  .section--featured .column{
+    padding: 10px;
+  }
+
+ .section--featured .row {
+
+    top: 1500px;
+    left: 9vh;
+    width: 50%;
+  }
+footer {
+  font-size: 70%;
+}
+footer strong{
+
+      font-size: 1.2em;
+      line-height: 1.3;
+  }
+
+.col {
+  padding: 0 5px;
+}
+
+.three input {
+    width: 75px;
+}
+
+.main{
+  margin-bottom: 190px;
+}
+
+}
+
 /* ----------- iPhone 6 ----------- */
 
-/* Portrait and Landscape */
+/* Portrait  */
+
+
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+
+.kabir {
+  height: 382px;
+  background: url(../img/arjun680.jpg) top center fixed;
+}
+
+
+
+.quote-kabir {
+    width: 100%; 
+    height: 18%;
+    left: 188%;
+    margin-left: -700px;
+    top: 2%;
+    background: url(../img/kquote2.png) top left no-repeat;
+  
+}
+
+.logo-kabir {
+
+    height: 15%;
+    width: 100%;
+    background: url(../img/logop6p.png) center no-repeat;
+    top: 35%;
+    margin-top: -20px;
+    margin-left: -60px;
+   }
+
+.fore-kabir {
+    width: 100%;
+    height: 50%;
+    background: url(../img/kabirtransp61.png) right bottom no-repeat;
+    left: 43%;
+    margin-left: -200px;
+    top: 50%;
+   }
+
+
+.roy{
+  
+  background: url(../img/roypp6.png) ghostwhite top center no-repeat fixed;
+  
+height: 300px;
+
+}
+
+.dia{
+  
+  height: 400px;
+  position: relative;
+  background: url(../img/diap6pp.png) top center no-repeat fixed;
+  overflow: hidden;
+  width: 100%;
+}
+
+.fore-dia{
+  width: 100%;
+  height: 100%;
+  background: url(../img/diaforep5.png) top right no-repeat;
+  position: absolute;
+  
+  
+}
+
+.quote-dia{
+  width: 100%;
+  height: 100px;
+  background: url(../img/newdiaquotep5.png) top right no-repeat;
+  position: absolute;
+  top: 25%;
+  left: -80px;
+}
+
+
+.logo-dia{
+  
+  width: 100%;
+  height: 100px;
+  background: url(../img/ayesha121.png) center no-repeat;
+  position: absolute;
+  right: -56px;
+  top: 110px;
+}
+
+.summary{
+  padding: 22px;
+}
+
+.summary h2{
+  font-size: 35px;
+}
+
+.summary p{
+  font-size: 16px;
+  line-height: 1.2;
+  padding: 4% 4%;
+}
+
+.section--featured .row {
+    top: 1800px;
+    left: 10vh;
+    width: 50%;
+ }
+footer strong{
+  font-size: 1.2em;
+}
+
+.col {
+  padding: 0 6px;
+}
+
+
+
+}
+
+
+
+
+
+
+/* ----------- iPhone 6 ----------- */
+
+/* No Portrait and Only Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape ) { 
+
+
 
 .kabir {
   height: 382px;
@@ -1092,19 +1375,14 @@ height: 300px;
   font-size: 16px;
   line-height: 1.8;
 }
-
-
-
- .section--featured .row {
-
+.section--featured .row {
     top: 1800px;
     left: 33vh;
     width: 50%;
-  }
-
-   footer strong{
-      font-size: 1.2em;
-    }
+ }
+footer strong{
+  font-size: 1.2em;
+}
 
 .col {
   padding: 0 6px;
@@ -1153,10 +1431,6 @@ height: 300px;
     margin-left: -400px;
     top: 55%;
    }
-
-
-
-
 
   .section--featured .row {
     left: 42vh;
